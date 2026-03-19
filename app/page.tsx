@@ -1,8 +1,8 @@
 import React from "react";
-import { Boxes } from "@/components/ui/background-boxes";
-import { cn } from "@/lib/utils";
+import { Boxes } from "../components/ui/background-boxes";
+import { cn } from "../lib/utils"
 import { Brain, ArrowRight, CheckCircle, Bot, TrendingUp, Star, Zap, FileText, Database, Target } from "lucide-react";
-import PricingTable, { Plan } from '@/components/ui/modern-pricing-table';
+import PricingTable, { Plan } from '../components/ui/modern-pricing-table';
 
 // Sample pricing data
 const samplePlans: Plan[] = [
